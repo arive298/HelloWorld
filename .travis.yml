@@ -1,3 +1,5 @@
-language: node_js
-node_js:
- - "node"
+language: c
+compiler:
+  - gcc
+  - clang
+script: make hello && ./hello
